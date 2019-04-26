@@ -1,3 +1,6 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 #tens{
     width:25vh;
     margin: 20px 10px 10px 20px;
@@ -9,4 +12,56 @@
 #title{
     color: #f06d1f;
     margin-left:20px;
+    font-size:35px;
+    padding: 10px;
 }
+
+#myMain{
+    margin-top: 9vh;
+    margin-left: 2.5vh;
+}
+#tensImg{
+    width: 140vh;
+    /* margin-left: 8vh; */
+    padding: 40px;
+}
+
+#textdiv{
+    font-size: 20px;
+}
+
+#dataClothImg{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-content: space-around;
+    
+}
+#dataClothImg img{
+    height: 48vh;
+    padding: 40px;
+}
+
+#storeImg{
+    -webkit-animation: filter-animation 5s infinite;
+}
+
+#dataStoreImg{
+    -webkit-animation: filter-animation 5s infinite;
+}
+
+@-webkit-keyframes filter-animation {
+    0% {
+      -webkit-filter: sepia(0) saturate(2);
+    }
+    
+    50% {
+      -webkit-filter: sepia(1) saturate(8);
+    }
+    
+    100% {
+      -webkit-filter: sepia(0) saturate(2);
+    }
+  }
+  
+ 
+
