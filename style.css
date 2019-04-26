@@ -73,8 +73,21 @@ body{
 #clothingSet{
     height: 50vh;
 }
+#gif{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #f06d1f;
+    color: white;
+    margin-left: -13px;
+}
 
-
+li{
+    margin-left:80px;
+    padding: 20px;
+}
 
 
 
