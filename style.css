@@ -49,6 +49,40 @@ body{
     -webkit-animation: filter-animation 5s infinite;
 }
 
+#labelImg{
+    height: 40vh;
+    /* padding: 40px; */
+}
+
+.para3{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.pa3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#by2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#clothingSet{
+    height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
 @-webkit-keyframes filter-animation {
     0% {
       -webkit-filter: sepia(0) saturate(2);
