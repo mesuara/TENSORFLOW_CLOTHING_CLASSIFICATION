@@ -118,7 +118,15 @@ li{
     align-items: center;
 }
 
+#finalPred{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+}
+#finalPred img{
+    height: 40vh;
+}
 
 
 
